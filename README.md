@@ -13,11 +13,15 @@ Azure Bot Service: Recebe e encaminha a mensagem para o endpoint configurado.
 Amazon API Gateway: Ponto de entrada para as requisições, encaminhando para a função Lambda.
 Lambda Function (Bot-Teams): Processa a mensagem e interage com outra Lambda.
 Lambda Function (Bedrock): Interage com o AWS Bedrock para obter a resposta.
+
 Pré-requisitos
+
 Conta no Azure com Azure Bot Service configurado.
 Conta na AWS com permissões para criar e gerenciar funções Lambda, DynamoDB, e Bedrock.
 Node.js instalado localmente para desenvolvimento.
 Configuração do Projeto
+
+
 1. Configuração do Azure Bot Service
 Criação do Bot no Azure:
 
