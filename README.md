@@ -52,7 +52,9 @@ Configure o API Gateway para direcionar as requisições para a função Lambda 
 Testes:
 
 Envie mensagens de teste pelo Microsoft Teams e verifique se a resposta é gerada corretamente utilizando o AWS Bedrock.
+
 Conclusão
+
 Este projeto demonstra como integrar um bot no Microsoft Teams utilizando o Azure Bot Service e AWS Lambda para fornecer respostas automatizadas utilizando IA do AWS Bedrock. A documentação fornece um passo a passo para configuração e desenvolvimento, permitindo que você implemente e teste essa solução em sua própria infraestrutura.
 
 
