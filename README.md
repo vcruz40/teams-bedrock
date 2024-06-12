@@ -1,5 +1,7 @@
 Visão Geral
-Este projeto demonstra como configurar um bot no Microsoft Teams utilizando o Azure Bot Service para interagir com um serviço de IA hospedado na AWS, especificamente utilizando o AWS Bedrock. A arquitetura inclui uma função Lambda hospedada na AWS que processa as mensagens e interage com o Bedrock para fornecer respostas.
+Este projeto demonstra como configurar um bot no Microsoft Teams utilizando o Azure Bot Service para interagir com um serviço de IA hospedado na AWS, especificamente utilizando o AWS Bedrock. 
+
+A arquitetura inclui uma função Lambda hospedada na AWS que processa as mensagens e interage com o Bedrock para fornecer respostas.
 
 Arquitetura
 
