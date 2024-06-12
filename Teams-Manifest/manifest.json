@@ -1,0 +1,53 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.13",
+    "version": "1.0.0",
+    "id": "",
+    "developer": {
+        "name": "IA",
+        "websiteUrl": "",
+        "privacyUrl": "",
+        "termsOfUseUrl": ""
+    },
+    "icons": {
+        "color": "icon-color.png",
+        "outline": "icon-outline.png"
+    },
+    "name": {
+        "short": "Cloudinho",
+        "full": "Cloudinho"
+    },
+    "description": {
+        "short": "IA",
+        "full": "IA"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "",
+            "scopes": ["personal", "team", "groupchat"],
+            "supportsFiles": false,
+            "isNotificationOnly": false,
+            "commandLists": [
+                {
+                    "scopes": ["personal", "team", "groupchat"],
+                    "commands": [
+                        {
+                            "title": "CCOE",
+                            "description": "Bot FinOps"
+                        }
+                    ]
+                }
+            ]
+
+        }
+    ],
+    "permissions": ["identity", "messageTeamMembers"],
+    "validDomains": [
+        "*.amazonaws.com"
+    ],
+    "webApplicationInfo": {
+        "id": "",
+        "resource": ""
+    }
+}
